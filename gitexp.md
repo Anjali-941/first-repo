@@ -40,6 +40,8 @@ To clone the entire github repository , use the command **git clone https://gith
 
 To push the committed file to our git repository , use the below command.
 
+              git pull https://github.com/Anjali-941/first-repo.git
+
               git push https://github.com/Anjali-941/first-repo.git master
               
 **9.Creating a new branch and branch operations.**
@@ -49,6 +51,8 @@ Use the following commands :-
               git checkout -b repos  /*to create a branch named repos*/
               
               git branch             /*to show all branches*/
+              
+              git pull https://github.com/Anjali-941/first-repo.git  /*to pull any changes */
               
               git push https://github.com/Anjali-941/first-repo.git repos   /*to push the commited file to repos branch*/
               
@@ -60,7 +64,9 @@ To merge the branch to our master branch,use following commands.
                
                git merge repos    /*merging the branch repos*/
                
-               git pull . repos    /*merging the branch repos*/
+               git pull  https://github.com/Anjali-941/first-repo.git   
+               
+               git push https://github.com/Anjali-941/first-repo.git master
                
  
 The URL for the above repository in github is [first-rep](https://github.com/Anjali-941/demoteam).
